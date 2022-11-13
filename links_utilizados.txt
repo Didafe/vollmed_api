@@ -50,4 +50,7 @@ use vollmed_api;
 show tables;
 desc medicos;
 
+Documentação Bean Validation
+https://jakarta.ee/specifications/bean-validation/3.0/jakarta-bean-validation-spec-3.0.html#builtinconstraints
+
 
