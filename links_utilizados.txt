@@ -1,0 +1,47 @@
+start.spring.io
+
+Trelo com as regras de negócio:
+https://trello.com/b/O0lGCsKb/api-voll-med
+
+Projeto Mobile Figma:
+https://www.figma.com/file/N4CgpJqsg7gjbKuDmra3EV/Voll.med
+
+https://www.json.org/json-pt.html
+
+
+@Configuration
+public class CorsConfiguration implements WebMvcConfigurer {
+
+    @Override
+    public void addCorsMappings(CorsRegistry registry) {
+        registry.addMapping("/**")
+            .allowedOrigins("http://localhost:3000")
+            .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS", "HEAD", "TRACE", "CONNECT");
+    }
+}
+
+https://docs.oracle.com/en/java/javase/16/language/records.html
+
+Meu trello
+https://trello.com/b/WLJKVUhQ/api-voll-med
+
+mysql -u root -p
+
+create database volmed_api;
+
+
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost:3306/clinica
+spring.datasource.username=root
+spring.datasource.password=root
+
+Formato yaml
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/clinica
+        username: root
+        password: root
+
+
+https://12factor.net/
