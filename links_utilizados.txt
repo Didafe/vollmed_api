@@ -45,3 +45,9 @@ spring:
 
 
 https://12factor.net/
+
+use vollmed_api;
+show tables;
+desc medicos;
+
+
