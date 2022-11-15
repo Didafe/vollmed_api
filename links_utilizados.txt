@@ -53,4 +53,10 @@ desc medicos;
 Documentação Bean Validation
 https://jakarta.ee/specifications/bean-validation/3.0/jakarta-bean-validation-spec-3.0.html#builtinconstraints
 
+Paginação:
+
+?size=1
+&page=1
+?sort=nome
+
 
